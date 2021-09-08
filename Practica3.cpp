@@ -118,7 +118,7 @@ void Expresion::Formal(){
     Temp = ListaExpresion;
     while (Temp->Ant!=NULL){
         Temp=Temp->Ant;
-    } //Temp está en el inicion de la lista
+    } //Temp estÃ¡ en el inicion de la lista
     while(n>0)
         {
             switch (Temp->Dato)
